@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         messageLabel.hidden = false
         messageTextField.text = ""
         messageTextField.resignFirstResponder()
-        mailButton.setTitle("Mail sent!", UIColor.blueColor())
+        mailButton.setTitle("Mail sent!", forState: UIControlState.Normal)
         // Test
     }
 
